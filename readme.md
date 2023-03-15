@@ -1,1 +1,3 @@
-# work practise 
+# workpractise 
+My first Git Hub repo
+Hello Odin!
