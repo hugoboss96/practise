@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-size: 21 px;
+    font-family: sans-serif;
+    text-align: justify;
+    background: linear-gradient(to bottom, #72706f, #2b2828, #242323);
+  }
+  
+p {
+    color: rgb(253, 251, 251);
+}
+
+h1 {
+    font-size: 70px;
+    color: azure;
+}
