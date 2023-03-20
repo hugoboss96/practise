@@ -15,3 +15,49 @@ h1 {
     font-size: 70px;
     color: azure;
 }
+
+div {
+    background-color: rgb(0, 0, 0);
+}
+
+span {
+    color: brown;
+    font-size: 40px;
+}
+
+.highlight {
+    background: yellow;
+}
+
+.accent-color {
+    background: red;
+}
+#top-section {
+
+}
+
+#bottom-section {
+
+}
+
+.intro {
+    font-size: 30px;
+    color: darkkhaki;
+}
+/* This is the CSS box model */
+/* margin: 
+    border:
+    padding*/
+.box{
+    background-image: url(../img/3.jpg);
+    width: 3000px 2500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 100px;
+    border: 5px solid red;
+    padding: 50px 100px 300px 25px; /* top right bottom left */
+    text-align: center;
+    
+}
