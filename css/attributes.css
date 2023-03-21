@@ -1,19 +1,32 @@
 body {
-    background-color: black;
+    background-color: rgb(126, 203, 255);
     color: aliceblue;
     font-size: 21 px;
     font-family: sans-serif;
     text-align: justify;
-    background: linear-gradient(to bottom, #72706f, #2b2828, #242323);
+    /*background: linear-gradient(to bottom, #72706f, #2b2828, #242323); */
   }
   
 p {
     color: rgb(253, 251, 251);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+img {
+    align-content: center;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 70px;
     color: azure;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+    margin-bottom: 0px;
 }
 
 div {
@@ -43,6 +56,7 @@ span {
 .intro {
     font-size: 30px;
     color: darkkhaki;
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; 
 }
 /* This is the CSS box model */
 /* margin: 
@@ -61,3 +75,5 @@ span {
     text-align: center;
     
 }
+
+ .highlight
