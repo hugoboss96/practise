@@ -3,7 +3,7 @@ body {
     color: aliceblue;
     font-size: 21 px;
     font-family: sans-serif;
-    text-align: justify;
+    text-align: center;
     /*background: linear-gradient(to bottom, #72706f, #2b2828, #242323); */
   }
   
@@ -15,11 +15,17 @@ p {
     font-size: 20px;
     font-weight: normal;
     
+    clear: both;
 }
+
+
+ 
 
 img {
     align-content: center;
     margin-bottom: 20px;
+    float: left;
+    margin-left: 20px;
 }
 
 h1 {
@@ -29,9 +35,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-div {
-    background-color: rgb(0, 0, 0);
-}
+
 
 span {
     color: brown;
@@ -44,9 +48,6 @@ span {
 
 .accent-color {
     background: red;
-}
-#top-section {
-
 }
 
 #bottom-section {
@@ -76,4 +77,77 @@ span {
     
 }
 
- .highlight
+
+
+.intro {
+    background-color: darkgreen;
+    padding: 50px;
+}
+
+#top-section p {
+    color: rgb(238, 96, 96);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(120, 187, 247);
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+a:active {
+    color: chartreuse;
+}
+
+a:focus {
+    color:chocolate ;
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    
+}
+
+ul {
+    list-style-type: square;
+    
+    padding: 50px;
+
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+
+.red-box {
+    width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        border: 2px solid blue;
+        padding: 20px;
+        box-sizing: border-box;
+        float: right;
+        
+}
+.blue-box {
+    width: 200px;
+        height: 200px;
+        background-color: rgb(45, 7, 214);
+        border: 2px solid rgb(226, 12, 162);
+        padding: 20px;
+        box-sizing: border-box;
+        float: right;
+}
+
