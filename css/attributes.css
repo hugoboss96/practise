@@ -63,7 +63,7 @@ span {
 /* margin: 
     border:
     padding*/
-.box{
+#box{
     background-image: url(../img/3.jpg);
     width: 3000px 2500px;
     background-position: center;
@@ -130,24 +130,88 @@ ul li {
     margin-bottom: 15px;
 }
 
+.box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+    height: 100px;
+    width: 100px;
+    float: right;
+  }
+  
 
-.red-box {
+.box1 {
     width: 200px;
         height: 200px;
-        background-color: lightblue;
-        border: 2px solid blue;
+        background-color: rgb(40, 184, 231);
         padding: 20px;
         box-sizing: border-box;
         float: right;
         
 }
-.blue-box {
+.box2 {
     width: 200px;
         height: 200px;
         background-color: rgb(45, 7, 214);
-        border: 2px solid rgb(226, 12, 162);
+        padding: 20px;
+        box-sizing: border-box;
+        float: right;
+}
+.box3 {
+    width: 200px;
+        height: 200px;
+        background-color: rgb(238, 105, 238);
+        padding: 20px;
+        box-sizing: border-box;
+        float: right;
+        
+}
+.box4 {
+    width: 200px;
+        height: 200px;
+        background-color: rgb(0, 114, 25);
+        padding: 20px;
+        box-sizing: border-box;
+        float: right;
+}
+.box5 {
+    width: 200px;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        box-sizing: border-box;
+        float: right;
+}
+.box6 {
+    width: 200px;
+        height: 200px;
+        background-color: rgb(255, 145, 0);
+        padding: 20px;
+        box-sizing: border-box;
+        float: right;
+}
+.box7 {
+    width: 200px;
+        height: 200px;
+        background-color: rgb(163, 4, 255);
         padding: 20px;
         box-sizing: border-box;
         float: right;
 }
 
+.container {
+    background: rgb(255, 255, 255);
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    color: blue;
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container p {
+    color: black;
+    
+    
+}
+.container h1 {
+    color: black;
+}
