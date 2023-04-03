@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(226, 223, 178);
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 18px;
+    margin: 0;
+}
+header {
+    background: linear-gradient(to bottom, #855677, #452c3b, #251322);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+    flex-direction: row;
+    display: flex;
+
+}
+
+section {
+float: left;
+width: 70%;
+margin-bottom: 100px;
+text-align: justify;
+}
+
+aside {
+float: right;
+width: 25%;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(157, 107, 204);
+    padding: 50px 0;
+    text-align: center;
+}
